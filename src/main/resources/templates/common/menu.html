@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<!--底部菜单栏-->
+<div class="menu" id="menu">
+    <div class="col-xs-4 menu-item menu-item-activied" onclick="redirect('/')">
+        <span class="glyphicon glyphicon-home"></span>
+        <p>首页</p>
+    </div>
+    <div class="col-xs-4 menu-item" onclick="redirect('/cart/selectUI')">
+        <span class="glyphicon glyphicon-shopping-cart"></span>
+        <p>选号</p>
+    </div>
+    <div class="col-xs-4 menu-item" onclick="redirect('/user/userInfo')">
+        <span class="glyphicon glyphicon-user"></span>
+        <p>我</p>
+    </div>
+</div>
+</body>
+</html>

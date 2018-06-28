@@ -23,6 +23,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
-src/test/
-out
+/out
+/src/test
 

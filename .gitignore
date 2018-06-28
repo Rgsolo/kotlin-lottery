@@ -24,6 +24,7 @@ dist/
 nbdist/
 .nb-gradle/
 
-/out
+/out/test
+/out/production
 /src/test
 
